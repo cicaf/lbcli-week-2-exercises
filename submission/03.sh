@@ -5,7 +5,7 @@
 segwit_address=$(bitcoin-cli -regtest -rpcwallet=btrustwallet getnewaddress "" bech32)
 echo $segwit_address
 
-bitcoin-cli -regtest generatetoaddress 101 "$segwit_address"
+#bitcoin-cli -regtest generatetoaddress 101 "$segwit_address"
 
 echo $segwit_address
 
